@@ -4,4 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.nomPage,name='index')
+     path('api', views.ListUsers,name='index')
 ]
